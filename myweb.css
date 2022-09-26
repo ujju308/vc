@@ -1,0 +1,133 @@
+body{
+    margin: 0;
+    height: 3000px;
+}
+.icon{
+    margin-left: 10%;
+}
+#icon{
+    width: 25%;
+}
+.bgi{
+    background-image: url(2354314.jpg);
+    background-repeat: no-repeat;
+    position:inherit;
+    background-size:cover;
+    height:70%;
+    background-position-y:bottom ;
+}
+
+.taskbar ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color:rgb(33, 31, 31);
+    font-family: merriweather,arial;
+    font-size: 100%;
+    font-style: oblique;
+    font-weight: bold;
+}
+.taskbar ul li{
+padding-right: 10%;
+font-size: 250%;
+position: relative;
+top:0;
+}
+h1{
+    font-size: 700%;;
+}
+.intro {
+    text-align: center;
+    font-family: sacramento,arial;
+    font-style: oblique;
+    font-size: 700%;
+}
+
+.pirate {
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ text-align: center;
+ font-size: 700%;
+ font-weight: bold;
+ font-style: oblique;
+}
+#powers{
+    margin-top: 200px;
+    max-width: max-content;
+    text-align: center;
+}
+#types{
+    display: flex;
+    flex-direction: row;
+    align-content:space-around ;
+}
+h2{
+    text-align: center;
+    font-size: 200%;
+}
+#info{
+    width: 100%;
+}
+
+#tbody{
+    width: 100%;
+}
+.photo{
+    transition: transform .2s;
+}
+
+.photo:hover{
+    transform: scale(1.3);
+}
+.info{
+    position:relative;
+    padding-top:15px;
+    padding-bottom:15px;
+    left: 10%;
+    top:10%;
+    bottom: 0px;
+    text-align: center; 
+    width:50%;
+    overflow-y:visible;
+    font-size: 300%;
+}
+.names{
+  margin-left: 50%;
+}
+hr{
+    color:black;
+    border-top: 5px dotted ;
+    border-bottom: none;
+    width:10%;
+    margin-top: 200px;
+}
+#crew{
+    margin-top: 100px;
+    max-width: max-content;
+    align-items: center;
+}
+#captains{
+  text-align: center;
+  margin-top: 10%;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:#EAF6F6;
+}
+#gomuphoto{
+    
+    width: 70%;
+    margin-left:5%;
+}
+#hakiphoto{
+
+    width: 70%;
+    margin: 0 auto;
+}
+#g-5photo{
+
+    width: 70%;
+    margin: 0 auto;
+}
